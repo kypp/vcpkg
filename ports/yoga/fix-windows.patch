@@ -1,0 +1,12 @@
+diff --git a/yoga/YGMacros.h b/yoga/YGMacros.h
+index 9c2989ac..82361484 100644
+--- a/yoga/YGMacros.h
++++ b/yoga/YGMacros.h
+@@ -27,6 +27,6 @@
+ #define YG_ENUM_BEGIN(name) NS_ENUM(int, name)
+ #define YG_ENUM_END(name)
+ #else
+-#define YG_ENUM_BEGIN(name) enum name
++#define YG_ENUM_BEGIN(name) enum name: unsigned
+ #define YG_ENUM_END(name) name
+ #endif

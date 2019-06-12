@@ -12,6 +12,8 @@ vcpkg_from_github(
     REF 1.14.0
     SHA512 c634cb9be08a4f4f478c50de9f26a2e1a18b9c6313b78665cd3a28047bd04e14aac2f06702c3bc9f55dba605177b787424a405c4043f052a94d311c76e38bef1
     HEAD_REF master
+    PATCHES
+        fix-windows.patch
 )
 
 vcpkg_configure_cmake(
